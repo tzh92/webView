@@ -1,4 +1,5 @@
 window.addEventListener('load', global => {
+  alert('这个可以托管一个简单的Web页面');
   const url = new URL(location.href);
   const queryUrl = url.searchParams.get('url');
   const regexp = /(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i;
